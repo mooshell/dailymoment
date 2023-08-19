@@ -30,11 +30,17 @@ struct ContentView: View {
                     .position(x: 68, y: 115)
                 HStack {
                     Text(date, style: .date)
-                        .font(.custom("Arial Rounded MT Bold", size: 17))
-                        .position(x: 100, y:-200)
-                    Text(date, style: .time)
-                        .font(.custom("Arial Rounded MT Bold", size: 17))
-                        .position(x: 90, y:-200)
+                        .foregroundColor(.white)
+                        .font(.custom("Arial Rounded MT Bold", size: 25))
+                        .padding(8)
+                        .background(Color.blue.opacity(0.1))
+                        .accentColor(Color.pink.opacity(0.6))
+                        .cornerRadius(5)
+                        .shadow(radius: 10)
+                        .position(x: 180, y:-200)
+                        
+                    
+                       
                 }
                 
                 

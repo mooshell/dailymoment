@@ -14,6 +14,7 @@
 		374E036E2A90515700F5A652 /* dailymomentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374E036D2A90515700F5A652 /* dailymomentTests.swift */; };
 		374E03782A90515700F5A652 /* dailymomentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374E03772A90515700F5A652 /* dailymomentUITests.swift */; };
 		374E037A2A90515700F5A652 /* dailymomentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374E03792A90515700F5A652 /* dailymomentUITestsLaunchTests.swift */; };
+		374E038A2A90628100F5A652 /* SpotifyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374E03892A90628100F5A652 /* SpotifyiOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		374E03732A90515700F5A652 /* dailymomentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dailymomentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		374E03772A90515700F5A652 /* dailymomentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dailymomentUITests.swift; sourceTree = "<group>"; };
 		374E03792A90515700F5A652 /* dailymomentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dailymomentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		374E03892A90628100F5A652 /* SpotifyiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpotifyiOS.framework; path = dailymomentUITests/SpotifyiOS.framework; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				374E038A2A90628100F5A652 /* SpotifyiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,6 +126,7 @@
 			children = (
 				374E03772A90515700F5A652 /* dailymomentUITests.swift */,
 				374E03792A90515700F5A652 /* dailymomentUITestsLaunchTests.swift */,
+				374E03892A90628100F5A652 /* SpotifyiOS.framework */,
 			);
 			path = dailymomentUITests;
 			sourceTree = "<group>";
@@ -419,11 +423,15 @@
 				DEVELOPMENT_ASSET_PATHS = "\"dailymoment/Preview Content\"";
 				DEVELOPMENT_TEAM = 3DBALU4F76;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = dailymoment/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,11 +456,15 @@
 				DEVELOPMENT_ASSET_PATHS = "\"dailymoment/Preview Content\"";
 				DEVELOPMENT_TEAM = 3DBALU4F76;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = dailymoment/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -514,6 +526,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3DBALU4F76;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = michelleeliasflores.dailymomentUITests;
@@ -532,6 +548,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3DBALU4F76;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = michelleeliasflores.dailymomentUITests;
